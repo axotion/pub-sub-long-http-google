@@ -5,11 +5,6 @@
 
 ```typescript
 
-
-import {PubSubAPI} from './pub-sub.api';
-import {PubSubListener} from './listener';
-import {PubSubMessage} from './pub-sub-message.model';
-
 const bootstrap = async () => {
     const api = new PubSubAPI()
     await api.init(process.env.PROJECT_ID, process.env.CLIENT_EMAIL, process.env.PRIVATE_KEY)
