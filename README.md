@@ -1,6 +1,12 @@
 # Simple PoC of pubsub http long polling instead of GRPC stream
 
 
+## Install
+
+```
+npm install pub-sub-long-http-google
+```
+
 ## Example of usage
 
 ```typescript
