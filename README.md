@@ -12,6 +12,7 @@ npm install pub-sub-long-http-google
 ```typescript
 
 const bootstrap = async () => {
+
     const api = new PubSubAPI()
     await api.init(process.env.PROJECT_ID, process.env.CLIENT_EMAIL, process.env.PRIVATE_KEY)
 
