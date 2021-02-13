@@ -1,0 +1,25 @@
+{
+  "name": "pub-sub-long-http-google",
+  "version": "1.0.0",
+  "description": "Simple PoC of pubsub http long polling instead of GRPC stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pub-sub-google",
+    "google",
+    "pub-sub",
+    "pubsub"
+  ],
+  "author": "axotion",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "google-auth-library": "^6.1.6",
+    "googleapis": "^67.0.0",
+    "got": "^11.8.1"
+  }
+}
